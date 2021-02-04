@@ -111,14 +111,8 @@
 								<section>
 									<h2>EMAIL US</h2>
 									
-									<form method="post" action="https://audehelene.github.io/feed/form/formmail.php" name="SampleForm">
-    									<input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER">
-
-									    <!-- STEP 2: Put your email address in the 'recipients' value.
-											 Note that you also have to allow this email address in the
-											 $TARGET_EMAIL setting within formmail.php!
-									    -->
-  									  <input type="hidden" name="recipients" value="audejomini@gmail.com">
+									<form method="post" action="https://audehelene.github.io/feed/form/save-to-log.php" >
+    							
 										<div class="fields">
 											<div class="field half">
 												<input type="text" name="name" id="name" placeholder="Name" />
@@ -131,7 +125,7 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><input type="submit" value="Submit" /></li>
+											<li><input type="submit" value="SAVE" /></li>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</form>
