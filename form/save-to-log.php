@@ -1,5 +1,5 @@
 <?php
-  $log_file_name = 'mylog.log'; // Change to the log file name
-  $message = $_POST['message']; // incoming message
-  file_put_contents($log_file_name, $message, FILE_APPEND);
-  header('Location: /'); // redirect back to the main site
+if($_POST["message"]) {
+    mail("audejomini@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
