@@ -1633,10 +1633,10 @@ input, select, textarea {
 
 
 			#main .thumb:after {
-				background-image: -moz-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
-				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
-				background-image: -ms-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
-				background-image: linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
+				background-image: -moz-linear-gradient(to top, rgba(10,17,25,0) 1%, rgba(10,17,25,0) 15%);
+				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0) 1%, rgba(10,17,25,0) 15%);
+				background-image: -ms-linear-gradient(to top, rgba(10,17,25,0) 1%, rgba(10,17,25,0) 15%);
+				background-image: linear-gradient(to top, rgba(10,17,25,0) 1%, rgba(10,17,25,0) 15%);
 				pointer-events: none;
 				background-size: cover;
 				content: '';
