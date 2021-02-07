@@ -95,6 +95,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.news-text-wrap {
+   word-wrap: break-word;
+   width: 900px;
+}
+
 body {
 	line-height: 1;
 }
