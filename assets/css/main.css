@@ -156,7 +156,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 50px;
+			min-width: 320px;
 		}
 
 	}
@@ -1361,17 +1361,15 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+	/*	@media screen and (max-width: 736px) {
 
 			.poptrox-popup:before {
 				display: none;
 			}
 
-		/*  keeps caption on
 			.poptrox-popup .caption {
 				display: none !important;
-			}	
-		*/
+			}
 
 			.poptrox-popup .closer,
 			.poptrox-popup .nav-previous,
@@ -1379,7 +1377,8 @@ input, select, textarea {
 				display: none !important;
 			}
 
-		}
+
+		}*/
 
 /* Wrapper */
 
@@ -1574,9 +1573,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		body {
+	/*	body {
 			padding: 4em 0 0 0;
-		}
+		} */
 
 		#header {
 			-moz-transform: translateY(0);
