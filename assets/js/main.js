@@ -239,17 +239,17 @@
 		// Poptrox.
 			$main.poptrox({
 				baseZIndex: 20000,
-				caption: function($a) {
+				//caption: function($a) {
 
-					var s = '';
+					//var s = '';
 
-					$a.nextAll().each(function() {
-						s += this.outerHTML;
-					});
+					//$a.nextAll().each(function() {
+					//	s += this.outerHTML;
+					//});
 
-					return s;
+					//return s;
 
-				},
+				//},
 				fadeSpeed: 300,
 				onPopupClose: function() { $body.removeClass('modal-active'); },
 				onPopupOpen: function() { $body.addClass('modal-active'); },
